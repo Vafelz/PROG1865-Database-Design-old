@@ -1,0 +1,1 @@
+SELECT customers.customer_id, orders.order_id FROM customers left join orders on customers.customer_id = orders.customer_id where customers.customer_id = 1
